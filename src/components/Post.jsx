@@ -4,7 +4,7 @@ import { Avatar, Box, Card, CardActions, CardContent, CardHeader, CardMedia, Che
 const Post = (props) => {
   return (
     <Box>
-         <Card sx={{ margin: 5 , width: { xs: "100%" }}} >
+         <Card sx={{ margin: 5 , mr:"100px"}} >
       <CardHeader
         avatar={
             <Avatar src={props.src} aria-label="recipe">
